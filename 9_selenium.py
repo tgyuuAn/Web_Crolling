@@ -6,8 +6,8 @@ import pyperclip # 네이버 로그인을 우회하기 위해 복사 - 붙여넣
 #그냥 생으로 입력할경우 네이버 자동입력에 탐지됨
 
 #element 를 지우고싶으면 find_elemnt 한 다음 .clear() 사용
-user_id="tgyuu_@naver.com"
-user_pw="a01086641842tg!!"
+user_id=""
+user_pw=""
 
 browser = webdriver.Chrome("../chromedriver.exe") # 크롬드라이버 경로 설정
 #browser.maxmize_window() #창 최대화로 실행
