@@ -1,3 +1,6 @@
+user_id=""
+user_pw=""
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys #BACKSPACE나 ENTER키 등 키보드 자판을 쓰게하는 함수
@@ -6,8 +9,6 @@ import pyperclip # 네이버 로그인을 우회하기 위해 복사 - 붙여넣
 #그냥 생으로 입력할경우 네이버 자동입력에 탐지됨
 
 #element 를 지우고싶으면 find_elemnt 한 다음 .clear() 사용
-user_id=""
-user_pw=""
 
 browser = webdriver.Chrome("../chromedriver.exe") # 크롬드라이버 경로 설정
 #browser.maxmize_window() #창 최대화로 실행
