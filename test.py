@@ -20,4 +20,3 @@ for cartoon in cartoons:
     print(soup_2.find("span", attrs={"class" : "title"}).text.strip())
     print(soup_2.find("span", attrs={"class" : "wrt_nm"}).text.strip())
     print()
-    print()
